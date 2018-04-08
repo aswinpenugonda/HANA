@@ -1,0 +1,8 @@
+table.schemaName = "APENUGONDA";
+table.tableType = COLUMNSTORE;
+table.columns = 
+    [
+        { name = "id"; sqlType = ALPHANUM; length = 10; comment = "Employe ID"; },
+        { name = "name"; sqlType = NVARCHAR; length = 30; comment = "Employe Name"; }
+    ];
+table.primaryKey.pkcolumns = ["id"];
