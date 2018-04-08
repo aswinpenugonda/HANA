@@ -1,0 +1,9 @@
+table.schemaName = "APENUGONDA";
+table.tableType = COLUMNSTORE;
+table.columns = 
+    [
+        { name = "dept_id"; sqlType = ALPHANUM; length = 10; comment = "Department ID"; },
+        { name = "name"; sqlType = NVARCHAR; length = 30; comment = "Department Name"; },
+        { name = "comments"; sqlType = SHORTTEXT; length = 100;  comment= "Comments on Department"; }
+    ];
+table.primaryKey.pkcolumns = ["dept_id"];

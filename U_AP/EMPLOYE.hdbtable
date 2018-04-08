@@ -4,7 +4,7 @@ table.columns =
     [
         { name = "id"; sqlType = ALPHANUM; length = 10; comment = "Employe ID"; },
         { name = "name"; sqlType = NVARCHAR; length = 30; comment = "Employe Name"; },
-        { name = "dept"; sqlType = NVARCHAR; length = 10; comment= "Department"; },
+        { name = "dept_id"; sqlType = NVARCHAR; length = 10; comment= "Department"; },
         { name = "comments"; sqlType = SHORTTEXT; length = 100;  comment= "Comments on Employee"; }
     ];
 table.primaryKey.pkcolumns = ["id"];
